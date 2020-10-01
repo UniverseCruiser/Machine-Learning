@@ -48,6 +48,21 @@ X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size = 0.2, random
 import streamlit as st
 
 st.title("Handling Missing Values")
+st.tex(" 
+Country	Age	Salary	Purchased
+France	44	72000	No
+Spain	27	48000	Yes
+Germany	30	54000	No
+Spain	38	61000	No
+Germany	40		Yes
+France	35	58000	Yes
+Spain		52000	No
+France	48	79000	Yes
+Germany	50	83000	No
+France	37	67000	Yes
+")
+# st.title("Feature Scaling")
+st.text("Feature Scaling& Splitting datasets into Traing set and Test set")
 
 st.title("X_train")
 st.table(X_train)
