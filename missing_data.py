@@ -48,6 +48,14 @@ X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size = 0.2, random
 import streamlit as st
 
 st.title("Handling Missing Values")
+st.table(X_train)
+st.table(X_train)
+st.table(X_train)
+st.table(X_train)
+
+
+
+st.title("Handling Missing Values")
 chart_data = pd.DataFrame(
      np.random.randn(50, 4),
      columns=["X_train", "Y_test", "X_test", "Y_train"])
