@@ -40,7 +40,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size = 0.2, random
 
 # print(X_train)
 # print(Y_test)
-# print()
+# print(X_test)
 # print(Y_train)
 
 
@@ -48,10 +48,18 @@ X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size = 0.2, random
 import streamlit as st
 
 st.title("Handling Missing Values")
+
+st.title("X_train")
 st.table(X_train)
-st.table(X_train)
-st.table(X_train)
-st.table(X_train)
+
+st.title("Y_test")
+st.table(Y_test)
+
+st.title("X_test")
+st.table(X_test)
+
+st.title("Y_train")
+st.table(Y_train)
 
 
 
